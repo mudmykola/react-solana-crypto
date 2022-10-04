@@ -1,0 +1,24 @@
+nav {
+  margin: 48px 80px;
+}
+
+.brand {
+  font-size: 40px;
+}
+.toggle {
+  display: none;
+}
+
+.links ul {
+  font-weight: bold;
+}
+.links ul > li {
+  cursor: pointer;
+}
+.links a:first-of-type {
+  opacity: 1;
+}
+
+.links a {
+  opacity: initial;
+}

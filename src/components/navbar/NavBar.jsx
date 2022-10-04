@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+import navbar from "../navbar/navbar.css";
 import Button from "../button/Button";
 
 export default function NavBar() {
   const links = ["Home", "Dashbord", "Learn", "FAQ", "Contact", "About"];
   return (
-    <Nav>
+    <Nav className="flex">
       <div className="brand">
         <h2>Solana</h2>
       </div>
