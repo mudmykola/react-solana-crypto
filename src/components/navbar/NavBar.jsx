@@ -4,15 +4,22 @@ import navbar from "../navbar/navbar.css";
 import Button from "../button/Button";
 
 export default function NavBar() {
-  const links = ["Home", "Dashbord", "Learn", "FAQ", "Contact", "About"];
+  const links = [
+    "Home",
+    "Network",
+    "Validators",
+    "FAQ",
+    "Contact",
+    "Ecosystem",
+  ];
   return (
-    <Nav className="flex">
+    <Nav className="flex j-between a-center">
       <div className="brand">
         <h2>Solana</h2>
       </div>
       <div className="toggle"></div>
       <div className="links">
-        <ul>
+        <ul className="flex gap-2">
           {links.map((link) => {
             return (
               <li key={link}>
@@ -22,7 +29,7 @@ export default function NavBar() {
           })}
         </ul>
       </div>
-      <div className="auth">
+      <div className="auth flex gap-1">
         <Button text="Sign In" subBtn />
         <Button text="Sign Up" subBtn />
       </div>

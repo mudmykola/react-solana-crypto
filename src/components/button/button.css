@@ -1,0 +1,12 @@
+.subBtn {
+  background-color: var(--sub-btn);
+}
+button {
+  padding: 11px 20px;
+  background-color: var(--c100);
+  color: var(--default);
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+}

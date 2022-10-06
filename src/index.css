@@ -208,3 +208,32 @@ a {
 .text-center {
   text-align: center;
 }
+.column {
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 32px;
+}
+p {
+  font-size: 19px;
+  word-spacing: 3px;
+  line-height: 28px;
+}
+
+.h-width {
+  height: 70vh;
+}
+
+::--webkit-scrollbar {
+  width: 8px;
+  background-color: var(--bg);
+}
+
+::--webkit-scrollbar-thumb {
+  background-color: var(--c100);
+}
