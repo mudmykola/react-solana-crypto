@@ -1,5 +1,5 @@
 import React from "react";
-import button from "../button/button.css";
+import button from "../button/button.scss";
 
 function Button({ text, icon = false, subButton = false }) {
   return (

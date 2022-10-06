@@ -1,0 +1,25 @@
+.ecosys {
+  margin-top: 100px;
+  &-box {
+    &__title {
+      margin-bottom: 50px;
+      h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+      }
+    }
+    &__title {
+      text-align: center;
+    }
+  }
+  &-title {
+    h2 {
+      font-size: 44px;
+    }
+  }
+  &-image {
+    img {
+      width: 800px;
+    }
+  }
+}

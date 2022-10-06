@@ -1,0 +1,31 @@
+.price {
+  &-section {
+    background-color: #ffffff10;
+    border-radius: 16px;
+  }
+  &-box {
+    border-bottom: 1px solid #ffffff42;
+    padding: 32px;
+  }
+  &-box,
+  &-inner > .row {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 0.5fr;
+  }
+  &-inner {
+    padding: 16px 32px 32px 32px;
+  }
+}
+
+.name {
+  display: flex;
+}
+span {
+  display: block;
+}
+.green {
+  color: var(--c200);
+}
+.red {
+  color: var(--c300);
+}

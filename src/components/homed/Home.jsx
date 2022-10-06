@@ -1,5 +1,5 @@
 import React from "react";
-import homeCss from "./home.css";
+import homeCss from "./home.scss";
 import { FaChevronCircleRight } from "react-icons/fa";
 import { BiMeteor } from "react-icons/bi";
 import Button from "../button/Button";

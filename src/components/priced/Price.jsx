@@ -1,5 +1,5 @@
 import React from "react";
-import priceCss from "../priced/price.css";
+import priceCss from "../priced/price.scss";
 import etn from "../../assets/img/etn.png";
 import bnb from "../../assets/img/bnb.png";
 import tron from "../../assets/img/tron.png";
@@ -51,7 +51,7 @@ export default function Price() {
     else return;
   };
   return (
-    <div className="flex gap-2 column price-section ">
+    <div className="flex gap-2 column price-section max-container">
       <div className="container ">
         <div className="  price-box  sub">
           <span>#</span>
