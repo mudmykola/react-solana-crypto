@@ -1,0 +1,52 @@
+.roadmap {
+  &-box {
+    &__subtitle {
+      margin-bottom: 15px;
+    }
+    &__title {
+      font-size: 32px;
+    }
+  }
+  &-inner {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 64px;
+    &::-webkit-scrollbar {
+      height: 1px;
+    }
+    &__map {
+      min-width: 300px;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        top: 22px;
+        left: 16px;
+        height: 100%;
+        width: 120%;
+        z-index: -1;
+        border-top: 3px solid var(--default);
+        opacity: 0.5;
+      }
+    }
+    &__icon {
+      background-color: var(--icon);
+      border-radius: 100%;
+      padding: 10px;
+    }
+    svg {
+      font-size: 25px;
+    }
+    &__data {
+      font-weight: bold;
+      font-size: 15px;
+    }
+    &__name {
+      font-weight: bold;
+      font-size: 25px;
+    }
+    &__desc {
+      font-weight: lighter;
+    }
+  }
+}
