@@ -4,6 +4,7 @@ import Home from "./components/homed/Home";
 import NavBar from "./components/navbar/NavBar";
 import Price from "./components/priced/Price";
 import Service from "./components/services/Service";
+import Signup from "./components/signup/Signup";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Price />
       <Ecosystem />
       <Service />
+      <Signup />
     </>
   );
 }

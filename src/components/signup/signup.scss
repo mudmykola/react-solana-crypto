@@ -1,0 +1,22 @@
+.signup {
+  background-size: contain;
+  background-position: center;
+  margin: 0 auto;
+  margin: 100px 0 128px;
+
+  overflow: hidden;
+  &-box {
+    padding: 128px;
+    margin: 0 auto;
+    max-width: 100vmax;
+
+    h2 {
+      font-size: 38px;
+    }
+  }
+  &-image {
+    img {
+      width: 100%;
+    }
+  }
+}
