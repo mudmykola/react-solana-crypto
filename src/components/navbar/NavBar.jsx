@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import navbar from "../navbar/navbar.css";
+import navbar from "../navbar/navbar.scss";
 import Button from "../button/Button";
 
 export default function NavBar() {

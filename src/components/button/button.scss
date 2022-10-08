@@ -9,4 +9,9 @@ button {
   border-radius: 8px;
   font-size: 17px;
   cursor: pointer;
+  transition: var(--d-tr);
+  &:hover {
+    background-color: var(--sub-btn);
+    transition: var(--h-tr);
+  }
 }

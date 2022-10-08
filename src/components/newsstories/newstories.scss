@@ -1,0 +1,33 @@
+.newstories {
+  margin: 0;
+  margin: 100px 0 128px;
+  background-color: var(--d-bg);
+  padding: 128px;
+  &-box {
+    h2 {
+      font-weight: bold;
+    }
+    h3 {
+      font-weight: bold;
+    }
+  }
+  &-inner {
+    &__input {
+      background-color: var(--inp-bg);
+      padding-right: 128px;
+      padding: 16px;
+      border-radius: 8px;
+      font-size: 20px;
+      color: white;
+      input {
+        background-color: transparent;
+        border: none;
+        font-size: 19px;
+        color: var(--default);
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+}
