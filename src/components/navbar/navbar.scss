@@ -27,3 +27,52 @@ nav {
     transition: var(--h-tr);
   }
 }
+
+// 768
+@media (max-width: 768px) {
+  nav {
+    margin: 0;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    align-items: center;
+  }
+  .links {
+    font-size: 12px;
+  }
+  .auth {
+    display: none;
+  }
+}
+
+// 600
+@media (max-width: 600px) {
+}
+
+// 480
+@media (max-width: 480px) {
+  nav {
+    margin: 0;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .links,
+  .auth {
+    display: none;
+  }
+}
+
+// 320
+@media (max-width: 320px) {
+  nav {
+    margin: 0;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  .links,
+  .auth {
+    display: none;
+  }
+}
