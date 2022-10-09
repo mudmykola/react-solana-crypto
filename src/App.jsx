@@ -1,5 +1,6 @@
 import React from "react";
 import Ecosystem from "./components/ecosystem/Ecosystem";
+import { Footer } from "./components/footer/Footer";
 import Home from "./components/homed/Home";
 import NavBar from "./components/navbar/NavBar";
 import Newstories from "./components/newsstories/Newstories";
@@ -19,6 +20,7 @@ export default function App() {
       <Signup />
       <Roadmap />
       <Newstories />
+      <Footer />
     </>
   );
 }
