@@ -29,3 +29,113 @@ span {
 .red {
   color: var(--c300);
 }
+
+// 768
+@media (max-width: 768px) {
+  .price {
+    &-section {
+      width: 100%;
+      border-radius: 11px;
+    }
+    &-box {
+      padding: 9px;
+      font-size: 12px;
+    }
+    &-inner {
+      padding: 16px 20px 16px 9px;
+    }
+  }
+  .image {
+    img {
+      width: 25px;
+    }
+  }
+}
+
+// 600
+@media (max-width: 600px) {
+  .price {
+    &-section {
+      width: 100%;
+      border-radius: 11px;
+    }
+    &-box {
+      padding: 9px;
+      font-size: 12px;
+    }
+    &-inner {
+      padding: 16px 20px 16px 9px;
+    }
+  }
+  .image {
+    img {
+      width: 25px;
+    }
+  }
+}
+
+// 480
+@media (max-width: 480px) {
+  .price {
+    &-section {
+      width: 100%;
+    }
+    &-box {
+      padding: 9px;
+      font-size: 12px;
+    }
+    &-inner {
+      padding: 16px 20px 16px 9px;
+    }
+  }
+  .image {
+    img {
+      width: 25px;
+    }
+  }
+  .name {
+    width: 106px;
+  }
+  span {
+    font-size: 10px;
+  }
+  .short {
+    font-size: 8px;
+  }
+  .gap-1 {
+    gap: 8px;
+  }
+}
+
+// 320
+@media (max-width: 320px) {
+  .price {
+    &-section {
+      width: 100%;
+    }
+    &-box {
+      padding: 9px;
+      font-size: 12px;
+    }
+    &-inner {
+      padding: 16px 20px 16px 9px;
+    }
+  }
+  .image {
+    img {
+      width: 25px;
+    }
+  }
+  .name {
+    width: 106px;
+  }
+  span {
+    font-size: 10px;
+  }
+  .short {
+    font-size: 8px;
+  }
+  .gap-1 {
+    gap: 8px;
+  }
+}

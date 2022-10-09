@@ -16,7 +16,7 @@ export default function Ecosystem() {
             <h2>Discover the hottest projects on Solana.</h2>
           </div>
         </div>
-        <div className="flex gap a-center j-center">
+        <div className="ecosys-inner flex gap a-center j-center">
           <div className="ecosys-info flex column gap a-start j-center">
             <p className="sub">Protocol Based Rewards</p>
             <p className="sub">

@@ -61,8 +61,54 @@
 
 // 480
 @media (max-width: 480px) {
+  .roadmap {
+    &-box {
+      h2 {
+        font-size: 25px;
+      }
+    }
+    &-inner {
+      &__map {
+        min-width: 300px;
+      }
+      &__data {
+        font-size: 13px;
+      }
+      &__name {
+        font-size: 20px;
+      }
+      &__desc {
+        font-size: 16px;
+        word-spacing: 2px;
+        line-height: 24px;
+      }
+    }
+  }
 }
 
 // 320
 @media (max-width: 320px) {
+  .roadmap {
+    &-box {
+      h2 {
+        font-size: 25px;
+      }
+    }
+    &-inner {
+      &__map {
+        min-width: 190px;
+      }
+      &__data {
+        font-size: 13px;
+      }
+      &__name {
+        font-size: 20px;
+      }
+      &__desc {
+        font-size: 16px;
+        word-spacing: 2px;
+        line-height: 24px;
+      }
+    }
+  }
 }
